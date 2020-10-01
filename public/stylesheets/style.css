@@ -3,6 +3,46 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+header.fondeDeHeader {
+  background-color: #EAC926;
+}
+
+header.fondeDeHeader ul li {
+  list-style: none;
+}
+
+header.fondeDeHeader ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 12px;
+}
+
+h2.titulares {
+  padding-bottom: 25px;
+  color: #666;
+  background-color: #ebebeb;
+  font-size: 24px;
+}
+
+p.precio {
+  font-size: 18px;
+}
+
+p.descuentos {
+  color: #39b54a;
+  font-size: 16px;
+}
+
+h3.descripciones {
+  color: #666;
+  font-size: 16px;
+}
+
+hr {
+  background-color: #ebebeb;
+  height: 25px;
+  border-style: none;
 }
