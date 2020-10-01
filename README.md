@@ -10,21 +10,21 @@ Maquetado de la pagina web Mercado Libre, sin fines comerciales.
 
 3) Entras a la carpeta
 
-4)Instalas las dependencias: `npm install`
+4) Instalas las dependencias: `npm install`
 
-5)Para correr la aplicacion: `npm start`
+5) Para correr la aplicacion: `npm start`
 
-6)Cuando se clona un proyecto hay que instalar "`npm install`", el resto viene descargado
+6) Cuando se clona un proyecto hay que instalar "`npm install`", el resto viene descargado
 
 ------------------------------------------------------
 ## NODEMON
-7)Si no tengo nodemon global, "-g" Instalar nodemon: `npm install nodemon`
+7) Si no tengo nodemon global, "-g" Instalar nodemon: `npm install nodemon`
 
-8)para ejecutar la app: `nodemon start`
+8) para ejecutar la app: `nodemon start`
 ------------------------------------------------------
 ## GITIGNORE
 
-9)crear un archivo .gitignore
+9) crear un archivo .gitignore
 10) `node_modules/*`
 11) `.DS_Store`
 ------------------------------------------------------
