@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header.fondeDeHeader {
-  background-color: #EAC926;
+  background-color: #eac926;
 }
 
 header.fondeDeHeader ul li {
@@ -45,4 +47,8 @@ hr {
   background-color: #ebebeb;
   height: 25px;
   border-style: none;
+}
+
+i.footer-icon {
+  color: #1259c3;
 }
