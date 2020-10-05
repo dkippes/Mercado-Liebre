@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  padding: 50px;
+  padding: 25px;
   font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 12px;
 }
 
 header.fondeDeHeader {
@@ -18,9 +22,7 @@ header.fondeDeHeader ul li a {
   text-decoration: none;
 }
 
-p {
-  font-size: 12px;
-}
+
 
 h2.titulares {
   padding-bottom: 25px;

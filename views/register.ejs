@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre - Mis Compras</title>
+    <title>Mercado Liebre - Registro</title>
     <link rel="stylesheet" href="/stylesheets/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 </head>
@@ -40,6 +40,47 @@
                     </li>
                 </ul>
             </header>
+
+            <form action="/">
+                <input type="text" id="fullName" name="fullName" placeholder="Nombre y Apellido"><br>
+                <input type="text" id="userName" name="userName" placeholder="Nombre de usuario"><br>
+                <input type="email" name="email" id="email" placeholder="E-mail"><br>
+                <label for="fecha">Fecha de nacimiento</label><br>
+                <input type="date" name="fecha" id="fecha"><br>
+                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"><br>
+
+                <label for="perfil">
+                    <h4>Perfil del usuario</h4>
+                </label>
+                <input type="radio" name="perfil" id="comprador"><label for="comprador">Comprador</label>
+                <input type="radio" name="perfil" id="vendedor"><label for="vendedor">Vendedor</label><br>
+
+                <label for="intereses">
+                    <h4>Intereses</h4>
+                </label>
+                <input type="checkbox" name="intereses" value="electro" id="electro"><label
+                    for="electro">Electro</label>
+                <input type="checkbox" name="intereses" id="moda" value="moda"><label for="moda">Moda</label>
+                <input type="checkbox" name="intereses" id="hogar" value="hogar"><label for="hogar">Hogar</label>
+                <input type="checkbox" name="intereses" id="jugueteria" value="jugueteria"><label
+                    for="jugueteria">Juguetería</label>
+                <input type="checkbox" name="intereses" id="vidaSana" value="vidaSana"><label for="vidaSana">Vida
+                    Sana</label>
+                <br>
+
+                <label for="intereses">
+                    <h4>Elegí tu foto de usuario</h4>
+                </label>
+
+                <p><input type="file" name="archivo" id="archivo"></p>
+
+                <input type="password" id="password" name="password" placeholder="Elegi tu contraseña"><br>
+                <input type="password" name="password_confirm" placeholder="Confirmar tu contraseña"><br>
+                <p>
+                    <button type="submit" name="enviar" id="enviar">Enviar</button>
+                    <button type="reset" name="borrar" id="borrar">Borrar</button>
+                </p>
+            </form>
         </div>
 
         <div class="footer">
