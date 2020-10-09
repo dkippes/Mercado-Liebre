@@ -129,3 +129,60 @@ footer article {
 i.footer-icon {
   color: #1259c3;
 }
+
+/**************LOGIN / REGISTRO****************************/
+
+main.login {
+  padding: 0px 15px;
+}
+
+#fullName,
+ #userName,
+  #email,
+   #fecha,
+    #domicilio,
+     #comprador,
+     #vendedor,
+      #electro,
+      #moda,
+      #hogar,
+      #jugueteria,
+      #vidaSana,
+       #archivo,
+        #password,
+        #password_confirm,      
+          button#enviar,     
+           button#borrar {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+button#enviar {
+  color: white;
+  background-color: #0044AA;
+}
+
+button#enviar:hover {
+  background-color: #0022AA;
+}
+
+/***************REGISTRE**********************************/
+
+main.registro {
+  padding: 0px 15px;
+}
+
+button#borrar {
+  color: white;
+  background-color: #AA0044;
+}
+
+button#borrar:hover {
+  background-color: #CC1155;
+}
+
+
+
