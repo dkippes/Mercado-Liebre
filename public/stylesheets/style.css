@@ -52,11 +52,13 @@ header button.icono-menu {
   height: 40px;
   width: 40px;
   background-color: #0044AA;
+  border: 0px solid black;
   align-items: center;
   color: white;
   font-size: 20px;
   padding: 10px;
   border-radius: 5px ;
+  margin-bottom: 15px;
 }
 
 header button.icono-menu:hover {
