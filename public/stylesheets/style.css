@@ -20,17 +20,31 @@ p {
 
 /*****************HEADER*********************************/
 header.fondeDeHeader {
+  width: 100%;
   background-color: #eac926;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img-logo , .buscador{
+  width: 50%;
+}
+
+.boton-menu {
+  text-align: center;
+  width: 100%;
 }
 
 header a img.logo {
-  width: 50%;
+  width: 100%;
 }
 
 header p input {
   box-sizing: content-box;
-  width: 50%;
+  width: 95%;
+  margin-right: 5%;
 }
 
 header header.fondeDeHeader ul li {
@@ -53,12 +67,11 @@ header button.icono-menu {
   width: 40px;
   background-color: #0044AA;
   border: 0px solid black;
-  align-items: center;
   color: white;
   font-size: 20px;
   padding: 10px;
   border-radius: 5px ;
-  margin-bottom: 15px;
+  margin: 15px auto;
 }
 
 header button.icono-menu:hover {
@@ -73,6 +86,12 @@ header button.icono-menu:hover {
 
 /******************PRODCUTOS******************************/
 
+.box-titulo-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 main section .titulares {
   width: 90%;
   margin: 20px 0px;
@@ -82,7 +101,6 @@ main section .titulares {
 }
 
 main .producto {
-  display: block;
   background-color: white;
   margin-bottom: 20px;
   margin-left: 15px;
@@ -90,18 +108,54 @@ main .producto {
   padding: 15px 15px;
   align-content: center;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
+
+.icono-camion {
+  width: 100%;
+}
+
+.linea-camion {
+  border-top: 1px solid #ebebeb;
+}
+
+.icono-camion i.iconoProducto {
+  position: relative;
+  bottom: 15px;
+  left: 190px;
+}
+
+.precio-descuento {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-precio {
+  width: 30%;
+}
+
+.box-descuento {
+  width: 70%;
+}
+
 
 h3.descripciones {
   color: #666;
+  padding-top: 8px;
   font-size: 16px;
 }
 
 p.precio {
+  width: 30%;
   font-size: 18px;
 }
 
 p.descuentos {
+  width: 70%;
   color: #39b54a;
   font-size: 16px;
 }
@@ -115,6 +169,7 @@ main .iconoProducto {
   border-radius: 50%;
   border: 1px solid #39b54a;
   padding: 5px;
+  background-color: white;
 }
 
 /**************FOOTER*************************************/
@@ -160,6 +215,26 @@ main.login {
   margin: 20px 0px;
   border: transparent;
   border-radius: 5px;
+}
+
+.perfil-usuario-box {
+  display: flex;
+  align-items: center;
+}
+
+.intereses-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#electro , #moda , #hogar , #jugueteria , #vidaSana{
+  width: 25%;
+}
+
+.electro-box , .moda-box, .hogar-box, .jugueteria-box, .vidaSana-box{
+  width: 100%;
 }
 
 button#enviar {
